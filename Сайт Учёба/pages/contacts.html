@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="C:\Users\sheca\OneDrive\Desktop\Сайт Учёба\images\Lis1.png" alt="Логотип" class="logo">
+    <h1>Веб - технологии</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="about.html">О себе</a></li>
+        <li><a href="resume.html">Резюме</a></li>
+        <li><a href="portfolio.html">Портфолио</a></li>
+        <li><a href="competencies.html">Компетенции</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+    </ul>
+</nav>
+
+<div class="main">
+
+    <h1>Контакты</h1>
+
+    <form class="contact-form">
+
+        <p>Как Вам удобно получить ответ?</p>
+
+        <div class="radio-group">
+            <label><input type="radio" name="answer" value="email"> по почте</label>
+            <label><input type="radio" name="answer" value="phone"> по телефону</label>
+            <label><input type="radio" name="answer" value="none"> не нужно отвечать</label>
+        </div>
+
+        <p>Укажите тему вопроса</p>
+        <select name="subject">
+            <option value="work">Работа</option>
+            <option value="study">Учёба</option>
+            <option value="cooperation">Сотрудничество</option>
+            <option value="other">Другое</option>
+        </select>
+
+        <p>Ещё один вопрос?</p>
+
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="question1"> может так</label>
+            <label><input type="checkbox" name="question2"> или не так</label>
+            <label><input type="checkbox" name="question3"> иначе</label>
+        </div>
+
+        <div class="row">
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="name" id="name">
+        </div>
+
+        <div class="row">
+            <label for="email">Адрес почты:</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="row">
+            <label for="phone">Телефон:</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+
+        <p>Ваш вопрос:</p>
+        <textarea name="message" id="message" rows="5"></textarea>
+
+        <input type="submit" value="Отправить вопрос">
+
+    </form>
+
+    <h2>Социальные сети</h2>
+
+    <div class="social">
+        <img src="C:\Users\sheca\OneDrive\Desktop\Сайт Учёба\images\vk.png" alt="VK">
+        <img src="C:\Users\sheca\OneDrive\Desktop\Сайт Учёба\images\tg.png" alt="Telegram">
+        <img src="C:\Users\sheca\OneDrive\Desktop\Сайт Учёба\images\dc.png" alt="Discord">
+    </div>
+
+</div>
+
+<footer>
+    Сайт разработан в рамках учебной работы. Copyright © 2026
+</footer>
+
+</body>
+</html>
